@@ -1,0 +1,92 @@
+.container {
+    width: 400px;
+    background-color: #bb1233;
+    border-radius: 15px;
+    border: 2px solid #a3a3a3;
+}
+
+.logo-container {
+    padding: 25px 15px 15px 25px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.display {
+    height: 75px;
+    width: 90%; 
+    background-color: #2d2829;
+    border-radius: 50px;
+    margin: auto;
+    
+}
+
+.buttonsContainer {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+
+
+    
+}
+
+
+button {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    box-shadow: 1px 3px #2d2829;
+    font-size: 24px;
+}
+
+
+
+.operatorButtons {
+   width: 25%; 
+}
+
+.operatorButtons button {
+    margin-top: 10px;
+    background-color: #3db5e5
+}
+
+.SpecialButtons {
+    display:flex;
+    
+}
+
+.SpecialButtons button {
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: #2061b0
+}
+
+
+.numberButtons {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+button:nth-child(10) {
+    width: 170px;
+    border-radius: 50px;
+}
+
+.numberButtons button {
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: #113c78
+}
+
+

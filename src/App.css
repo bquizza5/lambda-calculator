@@ -1,8 +1,15 @@
+body {
+    background: black;
+}
+
 .container {
     width: 400px;
     background-color: #bb1233;
     border-radius: 15px;
     border: 2px solid #a3a3a3;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
 }
 
 .logo-container {
@@ -20,12 +27,20 @@
 }
 
 .display {
+    box-sizing: border-box;
     height: 75px;
     width: 90%; 
     background-color: #2d2829;
     border-radius: 50px;
     margin: auto;
+    font-size: 50px;
+    color: white;
+    text-align: right;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-right: 15px;
     
+     
 }
 
 .buttonsContainer {
@@ -47,7 +62,7 @@ button {
     color: white;
     border: none;
     box-shadow: 1px 3px #2d2829;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 
